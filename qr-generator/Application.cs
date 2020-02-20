@@ -78,7 +78,7 @@ namespace qr_generator
         {
             var qrCodeData = qrGenerator.CreateQrCode(text, level);
             var qrCode = new QRCode(qrCodeData);
-            return qrCode.GetGraphic(20);
+            return qrCode.GetGraphic(20, Color.Black, Color.White, false);
         }
     }
 }
