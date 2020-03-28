@@ -2,7 +2,7 @@
   "profiles": {
     "qr-generator": {
       "commandName": "Project",
-      "commandLineArgs": "-r IE3-[0-9]{3}$ -l 3"
+      "commandLineArgs": "-r A4-[0-9]{3}$ -l 3"
     }
   }
 }
